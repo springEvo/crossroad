@@ -1,32 +1,18 @@
 		<!--// Footer \\-->
-		<footer id="wm-footer" class="wm-footer-one">
-			
-            <!--// FooterNewsLatter \\-->
-            <div class="wm-footer-newslatter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <form>
-                                <i class="wmicon-interface2"></i>
-                                <input type="text" value="Enter your e-mail address" onblur="if(this.value == '') { this.value ='Enter your e-mail address'; }" onfocus="if(this.value =='Enter your e-mail address') { this.value = ''; }">
-                                <input type="submit" value="Subscribe to our newsletter">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// FooterNewsLatter \\-->
+		<footer id="wm-footer" class="wm-footer-one" style="background-color:#06388f;color:aliceblue;">
 
             <!--// FooterWidgets \\-->
             <div class="wm-footer-widget">
                 <div class="container">
                     <div class="row">
-                        <aside class="widget widget_contact_info col-md-3">
-                            <a href="index-2.html" class="wm-footer-logo"><img src="images/logo-1.png" alt=""></a>
+                        <aside class="widget widget_contact_info col-md-4">
+                            <a href="index-2.html" class="wm-footer-logo">
+                                <img src="{{asset('logo/logo.png')}}" alt="" style="width: 150px;"></a>
                             <ul>
-                                <li><i class="wm-color wmicon-pin"></i> 195 Cooks Mine Road Espanola, NM 87532</li>
-                                <li><i class="wm-color wmicon-phone"></i> +1 505-753-5656 <br> +1 505-753-4437</li>
-                                <li><i class="wm-color wmicon-letter"></i> <a href="mailto:name@email.com">info@university.com</a> <a href="mailto:name@email.com">support@university.com</a></li>
+                                <li style="color: aliceblue;"><i class="wm-color wmicon-user"></i> Ma Choon Ni Aung </li>
+                                <li  style="color: aliceblue;"><i class="wm-color wmicon-phone" style="color: aliceblue;"></i> +95  977 2241843</li>
+                                <li ><i class="wm-color wmicon-letter" style="color: aliceblue;"></i>
+                                    <a href="ceooffice.mm@gmail.com"  style="color: aliceblue;">ceooffice.mm@gmail.com</a> </li>
                             </ul>
                             <div class="wm-footer-icons">
                                 <a href="#" class="wmicon-social5"></a>
@@ -35,64 +21,41 @@
                                 <a href="#" class="wmicon-vimeo"></a>
                             </div>
                         </aside>
-                        <aside class="widget widget_archive col-md-2">
-                            <div class="wm-footer-widget-title"> <h5>Quick Links</h5> </div>
+
+                        <aside class="widget widget_archive col-md-4">
+                            <div class="wm-footer-widget-title"> <h5 style="color:aliceblue;">Quick Links</h5> </div>
                             <ul>
-                                <li><a href="#">Our Latest Events</a></li>
-                                <li><a href="#">Our Courses</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">404 Page</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">All Instructors</a></li>
+                                <li><a href="{{url('sponsors')}}" style="color:aliceblue;">Sponsors</a></li>
+                                <li><a href="{{url('floor-plan')}}" style="color:aliceblue;">Floor Plan</a></li>
+                                <li><a href="{{url('costs')}}" style="color:aliceblue;">Costs</a></li>
+                                <li><a href="{{url('sponsorships-opportunities')}}" style="color:aliceblue;">Sponsorships Opportunities
+                                </a></li>
+                                <li><a href="{{url('exhibitors')}}" style="color:aliceblue;">Exhibitors</a></li>
+                                <li><a href="{{url('booth-price')}}" style="color:aliceblue;">Booth Price  (Exclusive Lounge)
+                                </a></li>
                             </ul>
                         </aside>
-                        <aside class="widget widget_twitter col-md-4">
-                            <div class="wm-footer-widget-title"> <h5><i class="wmicon-social2"></i> @enrollcampus</h5> </div>
+
+                        <aside class="widget widget_archive col-md-4">
+                            <div class="wm-footer-widget-title"> <h5 style="color:aliceblue;">Quick Links</h5> </div>
                             <ul>
-                                <li>
-                                    <p>Check Youniverse - Multipurpose PSD Template @ThemeForest: <a href="#">pic.twitter.com/xcVlqJySjq</a></p>
-                                    <time datetime="2008-02-14 20:00" class="wm-color">2 hrs ago</time>
-                                </li>
-                                <li>
-                                    <p>Check out my New PSD:  FashionPlus - Fashion eCommerce: <a href="#">pic.twitter.com/xc445Ghyt</a></p>
-                                    <time datetime="2008-02-14 20:00" class="wm-color">4 hrs ago</time>
-                                </li>
-                                <li>
-                                    <p>MedicAid - Medical Template @ThemeForest: <a href="#">pic.twitter.com/xcVlq542wfER</a></p>
-                                    <time datetime="2008-02-14 20:00" class="wm-color">1 day ago</time>
-                                </li>
+                                <li><a href="{{url('international-partner')}}" style="color:aliceblue;">International Partner</a></li>
+                                <li><a href="{{url('our-events')}}" style="color:aliceblue;">event</a></li>
+                                <li><a href="{{url('lucky-draw')}}" style="color:aliceblue;">
+                                    “Lucky Draw Sponsor”
+                                </a></li>
+                                <li><a href="{{url('sample')}}" style="color:aliceblue;">Sample
+                                </a></li>
+                                <li><a href="{{url('digital-boards')}}" style="color:aliceblue;">4x Digital boards on walkway
+                                </a></li>
+                                <li><a href="{{url('sponsorships')}}" style="color:aliceblue;">Sponsorships For Education Services and Schools
+                                </a></li>
                             </ul>
                         </aside>
-                        <aside class="widget widget_gallery col-md-3">
-                            <div class="wm-footer-widget-title"> <h5>Our Instructors</h5> </div>
-                            <ul class="gallery">
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-1.jpg"><img src="extra-images/widget-gallery-1.jpg" alt=""></a></li>
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-2.jpg"><img src="extra-images/widget-gallery-2.jpg" alt=""></a></li>
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-3.jpg"><img src="extra-images/widget-gallery-3.jpg" alt=""></a></li>
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-4.jpg"><img src="extra-images/widget-gallery-4.jpg" alt=""></a></li>
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-5.jpg"><img src="extra-images/widget-gallery-5.jpg" alt=""></a></li>
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-6.jpg"><img src="extra-images/widget-gallery-6.jpg" alt=""></a></li>
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-7.jpg"><img src="extra-images/widget-gallery-7.jpg" alt=""></a></li>
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-8.jpg"><img src="extra-images/widget-gallery-8.jpg" alt=""></a></li>
-                                <li><a title="" data-rel="prettyPhoto[gallery1]" href="extra-images/widget-galleryfull-9.jpg"><img src="extra-images/widget-gallery-9.jpg" alt=""></a></li>
-                            </ul>
-                        </aside>
+                  
+
                     </div>
                 </div>
             </div>
-            <!--// FooterWidgets \\-->
-
-            <!--// FooterCopyRight \\-->
-            <div class="wm-copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6"> <span><i class="wmicon-nature"></i> Barcelona, Spain 2°F / -17°C</span> </div>
-                        <div class="col-md-6"> <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p> </div>
-                    </div>
-                </div>
-            </div>
-            <!--// FooterCopyRight \\-->
-
 		</footer>
 		<!--// Footer \\-->

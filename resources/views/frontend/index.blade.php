@@ -7,7 +7,10 @@
             
             <div class="wm-banner-one">
                 <div class="wm-banner-one-for">
-                    <div class="wm-banner-one-for-layer"><img src="{{asset('logo/pathein.jpg')}}" alt="">
+                    <div class="wm-banner-one-for-layer">
+                        <img src="{{asset('logo/pathein.jpg')}}" alt="">
+                        {{-- <iframe class="embed-responsive-item" src="{{asset('logo/eventvideo.wmv')}}" allowfullscreen></iframe>
+                          </div> --}}
                 </div>
                     <div class="wm-banner-one-for-layer"> <img src="{{asset('logo/venue.jpg')}}" alt=""> </div>
                
@@ -59,7 +62,9 @@
                                                 </div>
                                               </div> 
                                               <br>
-                                              <h3 style="text-align: center;color:#06388f;">LOTTE HOTEL YANGON</h3>
+                                              <h3 style="text-align: center;color:#06388f;">
+                                                Event Venue<br>
+                                                LOTTE HOTEL YANGON</h3>
                                               <p style="text-align: center;color:#06388f;">
                                               No. 82, Sin Phyu Shin Avenue, Pyay Road, 6½ Mile, Ward 11, Hlaing Township, Yangon, Myanmar.<br>
                                               Date : 31 January~1 February 2025 <br>
@@ -69,7 +74,51 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="{{asset('logo/venue.jpg')}}" alt="">
+                                        <div class="wm-fancy-title"> <h2 style="color:#06388f;">Our <span style="color:#06388f;">Gallery</span></h2></div>
+                                        <br> <br> <br>
+                                        <div class="wm-testimonial-slider">
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/ban.jpg')}}" alt="">
+                                            </div>
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/venue.jpg')}}" alt="">
+                                            </div>
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/exp3.jpg')}}" alt="">
+                                            </div>
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/exp4.jpg')}}" alt="">
+                                            </div>
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/exp5.jpg')}}" alt="">
+                                            </div>
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/exp6.jpg')}}" alt="">
+                                            </div>
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/exp1.jpg')}}" alt="">
+                                            </div>
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/exp2.jpg')}}" alt="">
+                                            </div>
+
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/floor2.png')}}" alt="">
+                                            </div>
+
+                                            <div class="wm-testimonial-slider-wrap">
+                                                <img src="{{asset('logo/sample1.png')}}" alt="">
+                                            </div>
+
+                                        </div>
                                     </div>
 
                                 </div>
@@ -78,7 +127,434 @@
                             <br><hr>
             </div>
             <!--// Main Section \\-->
-		
+
+            <div class="wm-main-section">
+                <div class="container">
+                    <!-- Header Row -->
+                    <div class="row mb-4">
+                      <div class="col-md-12"><br><br><br>
+                        <h1 style="color: #08368f; font-weight: bold; text-transform: uppercase;">
+                         <center> Our Main Sponsors</center>
+                        </h1>
+                      </div>
+                        <div class="col-md-4">
+                            <img src="{{ asset('logo/logo.png') }}" alt="sponsors" style="width:200px;">
+                        </div>
+                        <div class="col-md-4">
+                            <figure style="border: 1px solid #000; text-align: center; padding: 10px;">
+                                <img src="{{ asset('logo/diamon.png') }}" alt="Diamond Sponsor" style="width: 150px;">
+                                <h2 style="color: rgb(3, 3, 109);">
+                                    Diamond Sponsor<br>
+                                    5'.5" x 2'
+                                </h2>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ asset('logo/ban.jpg') }}" alt="sponsors">
+                            <br><br>
+                           
+                        </div>
+                    </div>
+        
+                    <!-- Platinum Sponsors Row -->
+                    <div class="row mb-4">
+                        @for ($i = 0; $i < 3; $i++)
+                            <div class="col-md-4">
+                                <figure style="border: 1px solid #000; text-align: center; padding: 10px;">
+                                    <h2 style="color: rgb(3, 3, 109);">
+                                        Platinum Sponsor<br>
+                                        4'.5" x 2'
+                                    </h2>
+                                </figure>
+                            </div>
+                        @endfor
+                    </div>
+                    <div class="row text-center my-4">
+                        <div class="col-12">
+                            <h3 style="color: #08368f; font-weight: bold;">THE FIRST IN MYANMAR</h3>
+                            <h1 style="color: #08368f; font-weight: bold; text-transform: uppercase;">
+                                Crossroads Institutional Alumni Business Networking Event
+                            </h1>
+                            <h4 style="color: #c00;">
+                                Business Connections ▪ Education Pathways ▪ Product Shows ▪ Career Opportunities
+                            </h4>
+                        </div>
+                    </div>
+                    
+                    <!-- Gold Sponsors Row -->
+                    <div class="row mb-4">
+                        <div class="col-md-1"></div>
+                        @for ($i = 0; $i < 5; $i++)
+                            <div class="col-md-2">
+                                <figure style="border: 1px solid #000; text-align: center; padding: 10px;">
+                                    <h2 style="color: goldenrod;">
+                                        Gold Sponsor<br>
+                                        3'.5" x 2'
+                                    </h2>
+                                </figure>
+                            </div>
+                        @endfor
+                        <div class="col-md-1"></div>
+                    </div>
+        
+                    <!-- Silver Sponsors Row -->
+                    <div class="row">
+                        @for ($i = 0; $i < 12; $i++)
+                            <div class="col-md-2">
+                                <figure style="border: 1px solid #000; text-align: center; padding: 10px;">
+                                    <h2 style="color: gray;">
+                                        Silver Sponsor<br>
+                                        2' x 1'
+                                    </h2>
+                                </figure>
+                            </div>
+                        @endfor
+                    </div>
+                </div></div>
+		      <!--// Main Section \\-->
+              <div class="wm-main-section wm-whychooseus-full" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                          <h1 style="color: #08368f; font-weight: bold; text-transform: uppercase;"><center> Educational Partner</center></h1>
+                          <br><br>
+                        </div>
+                        <div class="col-md-3">
+                          <img src="{{ asset('logo/par1.jpg') }}" alt="SBS">
+                        </div>
+                        <div class="col-md-3">
+                          <img src="{{ asset('logo/par2.jpg') }}" alt="SBS">
+                        </div>
+                        <div class="col-md-3">
+                          <img src="{{ asset('logo/par3.jpg') }}" alt="SBS">
+                        </div>
+                        <div class="col-md-3">
+                          <img src="{{ asset('logo/par4.jpg') }}" alt="SBS">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <hr>
+                      </div>
+                        <div class="col-md-3">
+                          <img src="{{ asset('logo/par5.jpg') }}" alt="">
+                        </div>
+                        <div class="col-md-3">
+                          <img src="{{ asset('logo/par6.jpg') }}" alt="">
+                        </div>
+                        <div class="col-md-3">
+                          <img src="{{ asset('logo/par7.jpg') }}" alt="">
+                        </div>
+                        <div class="col-md-3">
+                          <img src="{{ asset('logo/par8.jpg') }}" alt="">
+                        </div>
+
+
+                        <div class="col-md-12">
+                          <hr>
+                        </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par9.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par10.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par11.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par12.jpg') }}" alt="">
+                          </div>
+
+
+                          
+                        <div class="col-md-12">
+                          <hr>
+                        </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par13.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par14.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par15.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par16.jpg') }}" alt="">
+                          </div>
+
+
+                          
+                        <div class="col-md-12">
+                          <hr>
+                        </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par17.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par18.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par19.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/par21.jpg') }}" alt="">
+                          </div>
+
+                          <div class="col-md-12">
+                            <hr>
+                          </div>
+
+                          <div class="col-md-12">
+                            <h1 style="color: #08368f; font-weight: bold; text-transform: uppercase;"><center>Corporate Partner Sponsors</center></h1>
+                            <br><br>
+                          </div>
+
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/mcb.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/real.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/wcom.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/cozy.jpg') }}" alt="">
+                          </div>
+
+                          <div class="col-md-12">
+                            <hr>
+                          </div>
+
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/shwe.png') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/heart.png') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/fly.jpg') }}" alt="">
+                          </div>
+                          <div class="col-md-3">
+                            <img src="{{ asset('logo/chu.jpg') }}" alt="">
+                          </div>
+
+                          <div class="col-md-12">
+                            <hr>
+                          </div>
+   
+                          <div class="col-md-12">
+                            <h1 style="color: #08368f; font-weight: bold; text-transform: uppercase;"><center>Speakers</center></h1>
+                            <br><br>
+                          </div>
+                          
+                          <div class="col-md-6">
+                            
+                            <div class="wm-postreviews">
+                         
+                               <ul>
+                                  <li>
+                                       <div class="thumblist">
+                                          <ul>
+                                            <li>
+                                              <h4><a href="#">U Nyi Nyi</a></h4>
+                                                <figure>
+                                                  <img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="">
+                                               </figure>
+                                               
+
+                                        <div class="wm-reviews-text">
+                                  <div class="wm-rating">
+                                    <span class="rating-box" style="width:100%"></span>											
+                                  </div>
+                                  <br>
+                                  <p>Ai and Business Today<br>
+                                    Speaker name (TBA)<br>
+                                    Qualifications<br>
+                                    Date:Time
+                                    </p>
+                                </div>
+                                            </li>
+                                          </ul>
+                                      </div>
+                                  </li>
+                                </ul>
+                              </div>
+                      
+                          </div>
+                          <div class="col-md-6">
+                            
+                            <div class="wm-postreviews">
+                         
+                               <ul>
+                                  <li>
+                                       <div class="thumblist">
+                                          <ul>
+                                            <li>
+                                              <h4><a href="#">U Nyi Nyi</a></h4>
+                                                <figure>
+                                                  <img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="">
+                                               </figure>
+                                               
+
+                                        <div class="wm-reviews-text">
+                                  <div class="wm-rating">
+                                    <span class="rating-box" style="width:100%"></span>											
+                                  </div>
+                                  <br>
+                                  <p>Ai and Business Today<br>
+                                    Speaker name (TBA)<br>
+                                    Qualifications<br>
+                                    Date:Time
+                                    </p>
+                                </div>
+                                            </li>
+                                          </ul>
+                                      </div>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+
+
+                          <div class="col-md-6">
+                            
+                            <div class="wm-postreviews">
+                         
+                               <ul>
+                                  <li>
+                                       <div class="thumblist">
+                                          <ul>
+                                            <li>
+                                              <h4><a href="#">U Nyi Nyi</a></h4>
+                                                <figure>
+                                                  <img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="">
+                                               </figure>
+                                               
+
+                                        <div class="wm-reviews-text">
+                                  <div class="wm-rating">
+                                    <span class="rating-box" style="width:100%"></span>											
+                                  </div>
+                                  <br>
+                                  <p>Ai and Business Today<br>
+                                    Speaker name (TBA)<br>
+                                    Qualifications<br>
+                                    Date:Time
+                                    </p>
+                                </div>
+                                            </li>
+                                          </ul>
+                                      </div>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            
+                            <div class="wm-postreviews">
+                         
+                               <ul>
+                                  <li>
+                                       <div class="thumblist">
+                                          <ul>
+                                            <li>
+                                              <h4><a href="#">U Nyi Nyi</a></h4>
+                                                <figure>
+                                                  <img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="">
+                                               </figure>
+                                               
+
+                                        <div class="wm-reviews-text">
+                                  <div class="wm-rating">
+                                    <span class="rating-box" style="width:100%"></span>											
+                                  </div>
+                                  <br>
+                                  <p>Ai and Business Today<br>
+                                    Speaker name (TBA)<br>
+                                    Qualifications<br>
+                                    Date:Time
+                                    </p>
+                                </div>
+                                            </li>
+                                          </ul>
+                                      </div>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="wm-postreviews">
+                               <ul>
+                                  <li>
+                                       <div class="thumblist">
+                                          <ul>
+                                            <li>
+                                              <h4><a href="#">U Nyi Nyi</a></h4>
+                                                <figure>
+                                                  <img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="">
+                                               </figure>
+                                               
+
+                                        <div class="wm-reviews-text">
+                                  <div class="wm-rating">
+                                    <span class="rating-box" style="width:100%"></span>											
+                                  </div>
+                                  <br>
+                                  <p>Ai and Business Today<br>
+                                    Speaker name (TBA)<br>
+                                    Qualifications<br>
+                                    Date:Time
+                                    </p>
+                                </div>
+                                            </li>
+                                          </ul>
+                                      </div>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+
+                               <div class="col-md-6">
+                            
+                            <div class="wm-postreviews">
+                         
+                               <ul>
+                                  <li>
+                                       <div class="thumblist">
+                                          <ul>
+                                            <li>
+                                              <h4><a href="#">U Nyi Nyi</a></h4>
+                                                <figure>
+                                                  <img src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="">
+                                               </figure>
+                                               
+
+                                        <div class="wm-reviews-text">
+                                  <div class="wm-rating">
+                                    <span class="rating-box" style="width:100%"></span>											
+                                  </div>
+                                  <br>
+                                  <p>Ai and Business Today<br>
+                                    Speaker name (TBA)<br>
+                                    Qualifications<br>
+                                    Date:Time
+                                    </p>
+                                </div>
+                                            </li>
+                                          </ul>
+                                      </div>
+                                  </li>
+                                </ul>
+                              </div>
+                          </div>
+                        
+                    </div>
+             
+                </div>
             <br><br>
 			<div class="wm-main-section wm-whychooseus-full">
 				<div class="container">
@@ -478,7 +954,6 @@
                                             <ul class="wm-post-options">
                                                 <li style="color: #000;"></li>
                                                 <li style="color: #000;"></li>
-                                              
                                             </ul>
                                             
                                         </div>
@@ -487,7 +962,7 @@
                                     <li class="col-md-4">
                                         <div class="wm-newsgrid-text" style="background-color:#06388f;">
                                             <ul class="wm-post-options">
-                                                <li style="color: #fff;">20,000+</li>
+                                                <li style="color: #fff;font-size:20px;">20,000+</li>
                                                 <li style="color: #fff;"> Alumni members from various Institutions</li>
                                             </ul>
                                         </div>
@@ -496,7 +971,7 @@
                                     <li class="col-md-4">
                                         <div class="wm-newsgrid-text" style="background-color:#06388f;">
                                             <ul class="wm-post-options">
-                                                <li style="color: #fff;">1,700 +</li>
+                                                <li style="color: #fff;font-size:20px;">1,700 +</li>
                                                 <li style="color: #fff;">Business Owners and Senior Executives</li>
                                             </ul>
                                         </div>
@@ -505,7 +980,7 @@
                                     <li class="col-md-4">
                                         <div class="wm-newsgrid-text" style="background-color:#06388f;">
                                             <ul class="wm-post-options">
-                                                <li style="color: #fff;">60 +
+                                                <li style="color: #fff;font-size:20px;">60 +
                                                 </li>
                                                 <li style="color: #fff;">
                                                     Product booths from alumni members

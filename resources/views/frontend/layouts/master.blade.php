@@ -8,13 +8,18 @@
     <title>Crossroads</title>
 
     <!-- Css Files -->
+    <link href="{{asset('logo/logo.png')}}" rel="icon">
+    <link href="{{asset('logo/logo.png')}}" rel="apple-touch-icon">
     <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
     <link href="{{asset('css/font-awesome.css')}}" rel="stylesheet">
     <link href="{{asset('css/flaticon.css')}}" rel="stylesheet">
     <link href="{{asset('css/slick-slider.css')}}" rel="stylesheet">
+    
     <link href="{{asset('css/prettyphoto.css')}}" rel="stylesheet">
     <link href="{{asset('build/mediaelementplayer.css')}}" rel="stylesheet">
+    
     <link href="{{asset('style.css')}}" rel="stylesheet">
+    
     <link href="{{asset('css/color.css')}}" rel="stylesheet">
     <link href="{{asset('css/color-two.css')}}" rel="stylesheet">
     <link href="{{asset('css/color-three.css')}}" rel="stylesheet">
@@ -57,6 +62,7 @@
       font-weight: normal;
     }
     </style>
+    
   </head>
   <body>
 	
@@ -76,7 +82,7 @@
 	<!-- jQuery (necessary for JavaScript plugins) -->
 	<script type="text/javascript" src="{{asset('script/jquery.js')}}"></script>
 	<script type="text/javascript" src="{{asset('script/modernizr.js')}}"></script>
-    <script type="text/javascript" src="{{asset('/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('script/bootstrap.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('script/jquery.prettyphoto.js')}}"></script>
     <script type="text/javascript" src="{{asset('script/jquery.countdown.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('script/fitvideo.js')}}"></script>
@@ -86,7 +92,7 @@
     <script type="text/javascript" src="{{asset('build/mediaelement-and-player.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('script/isotope.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('script/jquery.nicescroll.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('https://maps.googleapis.com/maps/api/js')}}"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript" src="{{asset('script/functions.js')}}"></script>
 
     <script>
